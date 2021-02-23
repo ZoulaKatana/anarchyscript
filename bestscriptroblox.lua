@@ -156,7 +156,7 @@ TextButton_4.Font = Enum.Font.SourceSansBold
 TextButton_4.Text = "More Scripts"
 TextButton_4.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton_4.TextSize = 35.000
-TextButton_3.MouseButton1Down:connect(function()
+TextButton_4.MouseButton1Down:connect(function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ZoulaKatana/script6/main/README.lua"))()
 end)
 
